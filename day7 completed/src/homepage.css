@@ -1,0 +1,178 @@
+.about-us {
+  padding-top: 100px;
+    /* background-color: lightgrey; */
+    padding: 40px;
+    border-style: hidden;
+    border-radius: 200px;
+  }
+  
+  .about-us_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .about-us_description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 30px;
+    height: 300px;
+  }
+  
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+  .row{
+    display: flex;
+    padding-bottom: 50px;
+  }
+#img1{
+  /* background-color: lightgray; */
+  border-radius: 50%;
+  padding-right: 60px;
+  padding-top: 10px;
+  /* object-fit: cover; */
+  /* margin-bottom: 10px; */
+}
+.best_seller{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+/* .img{
+  height: 100px;
+  width: 100px
+} */
+h2{
+  text-align: center;
+}
+#bs1_img1{
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+}
+#bs2_img2{
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+}
+#bs4_img4{
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+}
+#bs3_img3{
+  height: 150px;
+  width: 150px;
+  border-radius: 200px;
+}
+.rating {
+  /* display: flex; */
+  align-items: center;
+  color: #f8ce0b; 
+}
+
+.rating svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+}
+
+.features {
+  background-color: #fffcfc;
+  padding: 40px;
+}
+
+.features_title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.features_list {
+  display: flex;
+  justify-content: center;
+}
+
+.allproduct_list {
+  display: flex;
+  justify-content: center;
+}
+
+.feature {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}  
+
+.allp  {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.feature_icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.feature_title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feature_description {
+  font-size: 14px;
+  color: #666666;
+}
+#rupee{
+  font-weight: bold;
+}
+.header2{
+  padding-top: 100px;
+  text-align: center;
+}
+.contact-us {
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.contact-us__title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* .contact-us__content { */
+  /* display: flex; */
+  /* justify-content: space-around; */
+/* } */
+
+.contact-us_info {
+  text-align: center;
+}
+
+.contact-us_info h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-us_info p {
+  font-size: 16px;
+}
+.rotate {
+  transform: rotate(110deg);
+  padding-left: 10px;
+}
+

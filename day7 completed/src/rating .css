@@ -1,0 +1,22 @@
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    width: 20px;
+    height: 20px;
+    /* border-radius: 50%; */
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .full {
+    background-color: #d6bb06;
+  }
+  
+  .empty {
+    background-color: #ccc;
+  }
+  
