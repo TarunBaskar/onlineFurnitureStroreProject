@@ -1,0 +1,28 @@
+.simple-image-slider {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column {
+      width: 100%;
+    }
+  
+    .best_seller {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #img1 {
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+  
+    .features__list {
+      flex-wrap: wrap;
+    }
+  
+    .feature {
+      width: 100%;
+    }
+  }

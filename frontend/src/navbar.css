@@ -1,0 +1,149 @@
+#title1{
+  padding-left: 10px;
+}
+.menu {
+  position: relative;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+.navbar__menuButton {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu.open .dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown__list {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.dropdown__item {
+  margin-bottom: 10px;
+}
+
+.dropdown__item a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.dropdown__item a:hover {
+  color: #f2f2f2;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    justify-content: space-between;
+  }
+  
+  .navbar__left {
+    /* margin-right: 10px; */
+     display: flex; 
+    justify-content: space-between;
+    padding-left: 100px;
+    
+  }
+  
+  .navbar__center {
+    flex: 1;
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .navbar__searchInput {
+    
+    padding: 10px;
+    padding-left: 200px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .navbar__searchButton {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  
+  .navbar__right {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+  }
+
+  .home-button {
+    padding: 7px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color:rgb(12, 12, 12)
+  }
+  
+  
+  .navbar__button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+    margin-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  .navbar__menuButton{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+
+  #menu{
+    margin-top: 18px;
+  }
+  
+
+  
